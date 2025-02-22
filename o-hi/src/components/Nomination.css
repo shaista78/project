@@ -1,0 +1,81 @@
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.saga h1 {
+    font-size: 10em;
+    color: #3aa0ff;
+    margin: 0;
+}
+
+.saga h2 {
+    font-size: 3em;
+    color: #febb48;
+    margin: 0;
+}
+
+.saga p {
+    font-size: 2em;
+    margin: 0;
+    color: #4e4e4d;
+}
+
+.title {
+    font-family: Metrophobic;
+    font-weight: bold;
+    font-size: 80px;
+    /* Adjust as needed */
+}
+
+.font-color-desc {
+    color: #b7b8b9;
+    font-size: 2rem;
+}
+
+.star-page {
+    background-color: #3aa0ff;
+    height: 150vh;
+    z-index: -2;
+    position: relative;
+    margin-top: 50px;
+}
+
+.background-text {
+    position: absolute;
+    font-weight: 899;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) skewX(15deg);
+    font-weight: 1000;
+    margin: 0;
+    line-height: 1;
+    font-size: 24rem;
+    color: #2696ff;
+    z-index: -1;
+    /* Position it behind the content */
+    pointer-events: none;
+
+}
+
+.content {
+    margin-top: 20%;
+}
+
+.content h1 {
+    position: relative;
+    z-index: 1;
+    /* Ensures content stays on top */
+    text-align: center;
+    color: #fbb810;
+    font-size: 7rem;
+    line-height: 0.4;
+    font-weight: 1000;
+    text-align: right;
+}
+
+.start-tick {
+    margin-top: -18%;
+    margin-left: -2%;
+}

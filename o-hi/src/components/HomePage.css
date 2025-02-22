@@ -1,0 +1,37 @@
+.description {
+    width: 100%;
+    height: 100%;
+    background-color: #434242;
+}
+
+.hashtag {
+    width: 150%;
+    height: 100%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+
+.description-test1 {
+    font-family: Metrophobic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49.32px;
+    letter-spacing: 9%;
+    text-align: right;
+    color: white;
+}
+
+.description-test2 {
+    font-family: Metrophobic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61.65px;
+    letter-spacing: 9%;
+    text-align: right;
+    color: #FAB945;
+}
+
+.emoji {
+    top: 15%;
+    left: 15%;
+}

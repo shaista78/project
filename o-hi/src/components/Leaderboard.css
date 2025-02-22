@@ -1,0 +1,54 @@
+.checkin {
+    text-align: center;
+    color: #fe4365;
+    font-size: 7rem;
+    font-weight: 1000;
+    text-align: right;
+    transform: skewX(-10deg);
+}
+
+.checkinleader {
+    text-align: center;
+    color: #febb48;
+    font-size: 7rem;
+    font-weight: 1000;
+    text-align: right;
+    transform: skewX(20deg);
+    line-height: 0.8;
+}
+
+.win {
+    text-align: center;
+    color: #fe4365;
+    font-size: 7rem;
+    font-weight: 1000;
+    text-align: right;
+    transform: skewX(-10deg);
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+}
+
+.curved-left-arrow {
+    font-size: 25rem;
+    font-weight: 999;
+    color: #0470f3;
+    transform: rotate(180deg);
+}
+
+.line-height-p {
+    line-height: 0.4;
+}
+
+.desc {
+    font-size: 5em;
+    color: #3aa0ff;
+    font-weight: bolder;
+    line-height: 1;
+    transform: rotate(-2deg);
+}
