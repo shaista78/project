@@ -6,11 +6,11 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='container-footer'>
-            <div className=' flex lg:flex-row md:flex-column  sm:flex-column text-white text-xl line-height-p'>
-                <div className='w-5 flex align-items-center justify-content-center' >
+            <div className=' flex lg:flex-row md:flex-column  sm:flex-column w-full text-white text-xl line-height-p align-items-center justify-content-center'>
+                <div className='w-5 lg:w-5 md:w-12  sm:w-12  flex align-items-center justify-content-center' >
                     <img src={icon} alt='hashtag' className='  z-10 lg:w-6 md:w-full  sm:w-full' />
                 </div>
-                <div className='lg:w-2 md:w-6  sm:w-6 mt-8'>
+                <div className='lg:w-2 md:w-6  sm:w-6 mt-8   '>
                     <p className='bold text-white'>Quick Links</p>
                     <p>About Us</p>
                     <p>At Cafe</p>
@@ -41,9 +41,9 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='flex align-items-center justify-content-center w-12 h-5rem'>
+            <div className='flex align-items-center justify-content-center w-12 gap-4 m-4 p-4 lg:flex-row md:flex-column  sm:flex-column'>
                 <div className='container-copy text-xl w-5 ' >All Rights Reserved. Copyright 2024 | Saorsa Technocrat Pvt. Ltd</div>
-                <div className='container-copy  w-5 gap-3 flex flex-row  align-items-end justify-content-end' ><i className='pi pi-facebook text-4xl'></i>
+                <div className='container-copy  w-5 gap-3 flex flex-row  lg:align-items-end lg:justify-content-end ' ><i className='pi pi-facebook text-4xl'></i>
                     <i className='text-4xl pi pi-linkedin'></i>
                     <i className='text-4xl pi pi-whatsapp'></i>
                     <i className='text-4xl pi pi-twitter'></i>

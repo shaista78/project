@@ -35,7 +35,7 @@
 
 .star-page {
     background-color: #3aa0ff;
-    height: 150vh;
+ 
     z-index: -2;
     position: relative;
     margin-top: 50px;
@@ -48,10 +48,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%) skewX(15deg);
-    font-weight: 1000;
+    font-weight: 900;
     margin: 0;
-    line-height: 1;
-    font-size: 24rem;
+    
+    font-size: 18rem;
     color: #2696ff;
     z-index: -1;
     /* Position it behind the content */
@@ -70,7 +70,7 @@
     text-align: center;
     color: #fbb810;
     font-size: 7rem;
-    line-height: 0.4;
+   
     font-weight: 1000;
     text-align: right;
 }

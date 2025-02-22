@@ -16,12 +16,12 @@ function Nomination() {
         <h2>YOUR RECOGNITION STARTS HERE</h2>
       </div>
       <div className='flex flex-column align-items-center justify-content-center saga'>
-        <p className='bold'>Feel the thrill of being recognized wherever you go.</p>
-        <p className='bold'>  With O Hi, your presence matters—get the Fame Tick and real life </p> <p className='bold'>badges that define you and make an impact.</p>
+        <p className='bold'>Feel the thrill of being recognized wherever you go</p>
+        <p className='bold'>  With O Hi, your presence matters—get the Fame Tick and real life badges that define you and make an impact.</p>
       </div>
-      <div className="flex flex-wrap align-items-center  justify-content-between">
+      <div className="flex flex-wrap align-items-center grid justify-content-between">
         {[emoji, enterpreneur, influencer, celebrity, star, sports].map((item, index) => (
-          <div key={index} className="col-4 w-4 flex flex-column align-items-center justify-content-center mb-4">
+          <div key={index} className="lg:col-4 md:col-0 sm:col-0 w-4 flex flex-column align-items-center justify-content-center mb-4">
             <img src={item} alt="emoji" className="w-6 m-2" />
             <p className="font-bold text-2xl m-1">GLOBE TROTTER</p>
             <div className="w-9 font-color-desc text-center m-2">
@@ -47,7 +47,7 @@ function Nomination() {
         <div className="background-container w-full">
           <div className="background-text">FAME TICK</div>
           <img src={tick} alt="emoji" className="w-5 absolute top-0 left-0 start-tick pl-0" />
-          <div className="content w-10 align-items-center justify-content-center">
+          <div className="content lg:w-10 md:w-12  sm:w-12  align-items-center justify-content-center">
             <h1>TURN EVERY </h1>
             <h1>SOCIAL HOTSPOT</h1>
             <h1>INTO YOUR STAGE</h1>

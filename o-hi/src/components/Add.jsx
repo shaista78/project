@@ -11,7 +11,7 @@ function Add() {
      <img src={add2} alt='hashtag' className='  w-12 z-0' />
      <div className='flex w-12 flex lg:flex-row md:flex-column  align-items-center justify-content-center text-2xl'>
       
-     <div className='flex flex-column  m-6 lg:w-5 md:w-full line-height-p font-point  border-2 border-top-none border-right-none border-bottom-none'>
+     <div className='flex flex-column  m-6 lg:w-5 md:w-full line-height-p font-point  border-2 border-top-none border-right-none border-bottom-none pl-4'>
     
      <p>How can I find Caferoom?</p>
       <p>How to discover people around?</p>
