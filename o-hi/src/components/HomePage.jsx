@@ -8,7 +8,7 @@ function HomePage() {
       <div className='flex lg:flex-row md:flex-column  sm:flex-column w-12 gap-2 m-0'>
         <div className='lg:w-7 md:w-12  sm:w-12 relative'>
           <img src={hashtag} alt='hashtag' className='hashtag z-10 ' />
-          <img src={emoji} alt='emoji' className='absolute emoji lg:w-7 md:w-8  sm:w-8  z-0' />
+         
         </div>
 
         <div className='lg:w-5 md:w-12  sm:w-12  flex flex-column mr-8 -m-6 align-items-center justify-content-center'>
